@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/mob.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+  <div class="container">
+    <header id="header">
+      <figure class="logo">
+        <img src="imagens/bird 1.svg" alt="">
+        <figcaption hidden>logo Ken-Te-Vi</figcaption>
+      </figure>
+      <div id="burguer" class="material-icons" onclick="clicar()">menu</div>
+  <nav id="nav">
+  <ul class="lista">
+    <li class="cabeçalho_menuitem">
+      <img src="imagens/Home.png" alt="">
+      <a href="#">Pagina Inicial</a>
+    </li>
+    <li class="cabeçalho_menuitem">
+      <img src="imagens/Hashtag.png" alt="">
+      <a href="#">Explorar</a>
+    </li>
+    <li class="cabeçalho_menuitem">
+      <img src="imagens/Notification.png" alt="">
+      <a href="#">Notificaçoes</a>
+    </li>
+    <li class="cabeçalho_menuitem">
+      <img src="imagens/Group (3).png" alt="">
+      <a href="#">Mensagens</a>
+    </li>
+    <li class="cabeçalho_menuitem">
+      <img src="imagens/Group (1).png" alt="">
+      <a href="#">Itens salvo</a>
+    </li>
+    <li class="cabeçalho_menuitem">
+      <img src="imagens/Group (2).png" alt="">
+      <a href="#">Listas</a>
+    </li>
+    <li class="cabeçalho_menuitem">
+      <img src="imagens/linux-logo2.png" alt="">
+      <a href="#">Perfil</a>
+    </li>
+    <li class="cabeçalho_menuitem">
+      <img src="imagens/Group (3).png" alt="">
+      <a href="#">Mais</a></li>
+  </ul>
+  </nav>
+    </header>
+  
+  <main id="conteudoPrincipal">
+  <h2 class="conteudoPrincipal_title">HOME</h2>
+  <form action="#" class="formulario">
+    <textarea name="txth" id="txt" placeholder="Oque está acontecendo?" ></textarea>
+    <button id="botao"  type="submit">Tweetar</button>
+  </form>
+  
+  <section class="section">
+  
+    <ul id="fed" class="conteudoUl_postagem">
+      <li class="conteudoLi_postagem">
+        <img class="tweet_fotoPerfil opa" src="imagens/linux-logo2.png" alt="">
+           <div class="post">
+            <h2>Linux</h2>
+            <span>@linux 22s</span>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, illo at odit dignissimos accusamus vero tempora </p>
+           </div> 
+      </li>
+  
+      <li class="conteudoLi_postagem"> <img src="imagens/ProfilePic (1).png" alt="">
+        <div class="post">
+         <h2>Maria</h2>
+         <span>mary-prise 14s</span>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, illo at odit dignissimos accusamus vero tempora</p>
+        </div>
+      </li>
+  
+  
+      <li class="conteudoLi_postagem"> <img src="imagens/ProfilePic.png" alt="">
+        <div class="post">
+         <h2>Everton</h2>
+         <span>@eve22 14s</span>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, illo at odit dignissimos accusamus vero tempora</p>
+        </div> 
+    </ul>
+  
+
+
+  </section>
+  
+  </main>
+
+  </div>
+ 
+
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>

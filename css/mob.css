@@ -1,0 +1,23 @@
+@media screen and (max-width:650px){
+  #burguer {
+   display: block;
+   color: #1da1f2;
+   position: relative;
+   top: -1em;
+   font-size: 30px;
+   font-weight: bold;
+  }
+
+  #burguer:hover {
+cursor: pointer;
+font-size: 35px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  header {
+  width: px;
+  }
+}

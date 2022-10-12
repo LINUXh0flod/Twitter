@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+#burguer {
+  display: none;
+}
+
+.opa{
+  width: 10%;
+  border-radius: 20%;
+}
+
+body {
+  
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+}
+
+header {
+  flex-basis: 70%;
+margin-left: 2em;
+}
+
+.logo {
+margin-bottom: 50px;
+}
+
+.nav {
+ 
+}
+
+.lista {
+
+}
+
+.logo > img {
+
+}
+
+.logo > figcaption {
+  display: none;
+}
+
+
+.cabeçalho_menuitem {
+color: black;
+margin-bottom: 25px;
+font-size: 20px;
+}
+
+.cabeçalho_menuitem > img {
+max-width: 26px;
+
+}
+
+.cabeçalho_menuitem > a  {
+  vertical-align: top;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*======MAIN==========*/
+
+main {
+border-left: 1px solid #e7ecf0;
+border-right: 1px solid #e7ecf0;
+min-width: 00px;
+margin-right: 1em;
+flex-basis: 125%;
+}
+
+.conteudoPrincipal_title {
+padding: 10px 30px;
+}
+
+.formulario {
+padding: 10px 30px;
+border-top: 1px solid #e7ecf0;
+border-bottom: 10px solid #e7ecf0;
+text-align: right;
+}
+
+.formulario > textarea {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  height: 55px;
+}
+
+.formulario > button {
+background-color: #1da1f2;
+border: none;
+padding: 8px 20px;
+color: #fff;
+border-radius:20px ;
+}
+
+button:hover {
+  padding: 9px 21px;
+  cursor: pointer;
+}
+
+.section {
+
+}
+
+.conteudoUl_postagem {
+
+}
+
+.conteudoLi_postagem {
+  padding: 20px 20px;
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #ddd;
+}
+
+.post {
+margin-left: 13px;
+
+}
+
+.post > h2 {
+  display: inline-block;
+}
+
+.post > span {
+  color: #828282;
+}
+
+.post > p {
+  margin-top: 15px;
+  color: #333333;
+}
